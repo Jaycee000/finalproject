@@ -1,0 +1,53 @@
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+}
+
+div#switcher {
+  margin-right: 0;
+}
+
+.open-portfolio-details .navigation-trigger {
+  z-index: 0;
+}
+
+
+/* global.css */
+
+/* Thêm màu nền sáng cho phần modal và các thông tin hiển thị */
+.modal-content {
+  background-color: #ffffff; /* Nền trắng cho modal */
+  color: #333; /* Màu chữ tối */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.vehicle-info-container {
+  background-color: #f9f9f9;  /* Nền sáng cho các container */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.vehicle-info-container h5 {
+  color: #333;  /* Màu chữ tối cho tiêu đề */
+}
+
+.vehicle-info-container pre {
+  background-color: #f1f1f1;  /* Nền sáng cho JSON */
+  color: #333;  /* Màu chữ tối */
+  padding: 15px;
+  border-radius: 5px;
+  overflow: auto;
+}
